@@ -1,4 +1,5 @@
-﻿using MauiApp1.AppsDemo;
+﻿using BMI.MVVM.Views;
+using MauiApp1.AppsDemo;
 using MauiApp1.ColorMaker;
 using MauiApp1.Controls;
 using MauiApp1.Pages;
@@ -30,6 +31,10 @@ public partial class App : Application
         //MainPage = new FlexLayoutPage();
 
         // MainPage = new ColorMakerView();
-        MainPage = new PerfectPayView();
+        // MainPage = new PerfectPayView();
+
+        // MainPage = new Hangman();
+
+        MainPage = new BMIView();
     }
 }
